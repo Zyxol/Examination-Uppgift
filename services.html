@@ -4,35 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Cleaning Service</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+
+    <title>Ben's Cleaning Service - Services</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Cleaning Service</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
-            </ul>
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Ben's Cleaning Service</a>
+
+            <span class="navbar-text mx-auto">Services</span>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="fas fa-home"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">
+                            <i class="fas fa-broom"></i> Services
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            <i class="fas fa-envelope"></i> Contact
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reviews.html">
+                            <i class="fas fa-star"></i> Reviews
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <div class="container">
-        <h1>Our Services</h1>
-        <ul>
-            <li>House Cleaning</li>
-            <li>Office Cleaning</li>
-            <li>Carpet Cleaning</li>
-        </ul>
+    <div class="container my-5">
+        <h1 class="text-center">Our Services</h1>
+        <p class="text-center bold-text">We offer the following services:</p>
+        
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h3>House Cleaning</h3>
+                <img src="images/roomcleaning.jpg" alt="House Cleaning" class="img-fluid service-image mb-3">
+                <p class="light-text">$50 <strong>per</strong> room</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Office Cleaning</h3>
+                <img src="images/officecleaning.jpeg" alt="Office Cleaning" class="img-fluid service-image mb-3">
+                <p class="light-text">$70 <strong>per</strong> office</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Carpet Cleaning</h3>
+                <img src="images/carpetcleaning.jpg" alt="Carpet Cleaning" class="img-fluid service-image mb-3">
+                <p class="light-text">$40 <strong>per</strong> carpet</p>
+            </div>
+        </div>
     </div>
-
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
